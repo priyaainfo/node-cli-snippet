@@ -1,0 +1,22 @@
+{
+  "name": "node-cli-snippet",
+  "version": "1.0.0",
+  "description": "Example for CLI application with node",
+  "main": "index.js",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "test-execute": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priya Palaniselvaraj",
+  "bin": {
+    "greet": "./greet.js",
+    "snippet": "./index.js"
+  },
+  "license": "MIT"
+}
